@@ -19,7 +19,7 @@ def createCertifAll(name,dayz,path):
 if __name__ == "__main__":
 	
 	nom = "G"
-	for i in range(1,5):
+	for i in range(1,5): # creating 5 certif named G1, G2 ...
 		print("création du certificat : " +str(i))
 		nomcap = nom+str(i)
 		createCertifAll(nomcap,"50","/home/darkvador/Téléchargements/")
