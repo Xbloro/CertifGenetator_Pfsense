@@ -145,7 +145,7 @@ class PfSenseCertificate(object):
 		"""
 		m_payloadCertificat = {"__csrf_magic":csrf,"method":"internal","descr":name,"catosignwith":key2,"csrtosign":"new","csrpaste":"",
 		"keypaste":"","csrsign_lifetime":"3650","csrsign_digest_alg":"sha256","cert":"","key":"","caref":key2,"keylen":"2048","digest_alg":"sha256",
-		"lifetime":n_days,"dn_commonname":name,"dn_country":"FR","dn_state":"FRANCE","dn_city":"PARIS","dn_organization":"GIZMO","dn_organizationalunit":"","csr_keylen":"2048",
+		"lifetime":n_days,"dn_commonname":name,"dn_country":"","dn_state":"","dn_city":"","dn_organization":"","dn_organizationalunit":"","csr_keylen":"2048",
 		"csr_digest_alg":"sha256","csr_dn_commonname":"","csr_dn_country":"","csr_dn_state":"","csr_dn_city":"","csr_dn_organization":"","csr_dn_organizationalunit":"",
 		"certref":key2,"type":"user","altname_type0":"DNS","altname_value0":name,"save":"Save"}
 		return m_payloadCertificat
