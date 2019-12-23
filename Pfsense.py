@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-""" create by Yug0h on 02/19
+""" create by Xbloro on 02/19
     This script allow u to creat cert on pfsense
     This is V2 in  OOP	
 """
